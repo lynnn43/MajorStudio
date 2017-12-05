@@ -1,6 +1,10 @@
+import processing.sound.*;
+SoundFile file;
 int frame = 0;
 int start = 0;
 int state = 0;
+color c = color(230,201,183);
+int value = c;
 
 PImage Homescreen;
 PImage Pic0, Pic1, Pic2, Pic3,Pic4, Pic5, Pic6, Pic7, Pic8, Pic9, Pic10, 
@@ -11,7 +15,9 @@ void setup(){
   size(1366, 1024);
   background(255,255,255);
   frameRate(30);
-  Homescreen = loadImage("homescreennew2.jpg");
+  //file = new SoundFile(this, "sample.mp3");
+  //file.play();
+  Homescreen = loadImage("homescreennew3.jpg");
   Pic0 = loadImage("newpic00.png");
   Pic1 = loadImage("newpic01.png");
   Pic2 = loadImage("newpic02.png");
@@ -130,15 +136,23 @@ void draw(){
     image(Pic28, 500, 100, 683, 683);
   }
   }
+  fill(c);
+  ellipse(260, 240, 260, 260);
+  ellipse(260, 570, 260, 260);
+  noStroke();
   }
 
-
-
-void keyPressed(){
-  if(key == ENTER){
-    start = 1;
-    frame = 0;
-  }else if (key =='s'){
-    start = 0;
+void mouseClicked(){
+  if(value == c){
+    start =1;
+    frame =0;
   }
+//void keyPressed(){
+  
+  //if(key == ENTER){
+  //  start = 1;
+  //  frame = 0;
+  //}else if (key =='s'){
+  //  start = 0;
+  //}
 }
