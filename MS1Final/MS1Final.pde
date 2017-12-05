@@ -17,7 +17,7 @@ void setup(){
   frameRate(30);
   //file = new SoundFile(this, "sample.mp3");
   //file.play();
-  Homescreen = loadImage("homescreennew3.jpg");
+  Homescreen = loadImage("homescreennew4.jpg");
   Pic0 = loadImage("newpic00.png");
   Pic1 = loadImage("newpic01.png");
   Pic2 = loadImage("newpic02.png");
@@ -51,94 +51,94 @@ void setup(){
 
 void draw(){
   if(start == 0){
-  image(Homescreen,0, 0,1300,1000);
+  image(Homescreen,0, 130,1366,1024);
   }
   
   frame += 1;
   if(start == 1){
   if(frame == 20){
-    image(Pic0, 500, 100,683,683);
+    image(Pic0, 500, 180,683,683);
   }else if(frame == 100){
-    image(Pic1, 500, 100, 683,683);
+    image(Pic1, 500, 180, 683,683);
   }else if(frame == 130){
-    image(Pic2, 500, 100, 683,683);
+    image(Pic2, 500, 180, 683,683);
   }else if(frame == 160){
-    image(Pic3, 500, 100, 683,683);
+    image(Pic3, 500, 180, 683,683);
   }else if(frame == 190){
-    image(Pic4, 500, 100, 683,683);
+    image(Pic4, 500, 180, 683,683);
   }else if(frame == 220){
-    image(Pic5, 500, 100, 683,683);
+    image(Pic5, 500, 180, 683,683);
   }else if(frame == 250){
-    image(Pic6, 500, 100, 683,683);
+    image(Pic6, 500, 180, 683,683);
   }else if(frame == 280){
-    image(Pic7, 500, 100, 683,683);
+    image(Pic7, 500, 180, 683,683);
   }else if(frame == 310){
-    image(Pic8, 500, 100, 683,683);
+    image(Pic8, 500, 180, 683,683);
   }else if(frame == 340){
-    image(Pic9, 500, 100, 683, 683);
+    image(Pic9, 500, 180, 683, 683);
   }else if(frame == 370){
-    image(Pic10, 500, 100, 683, 683);
+    image(Pic10, 500, 180, 683, 683);
   }else if(frame == 400){
-    image(Pic11, 500, 100, 683, 683);
+    image(Pic11, 500, 180, 683, 683);
   }else if(frame == 430){
-    image(Pic12, 500, 100, 683, 683);
+    image(Pic12, 500, 180, 683, 683);
   }else if(frame == 460){
-    image(Pic13, 500, 100, 683, 683);
+    image(Pic13, 500, 180, 683, 683);
   }else if(frame == 490){
-    image(Pic14, 500, 100, 683, 683);
+    image(Pic14, 500, 180, 683, 683);
   }else if(frame == 520){
-    image(Pic15, 500, 100, 683, 683);
+    image(Pic15, 500, 180, 683, 683);
   }else if(frame == 550){
-    image(Pic14, 500, 100, 683, 683);
+    image(Pic14, 500, 180, 683, 683);
   }else if(frame == 580){
-    image(Pic13, 500, 100, 683, 683);
+    image(Pic13, 500, 180, 683, 683);
   }else if(frame == 610){
-    image(Pic12, 500, 100, 683, 683);
+    image(Pic12, 500, 180, 683, 683);
   }else if(frame == 640){
-    image(Pic16, 500, 100, 683, 683);
+    image(Pic16, 500, 180, 683, 683);
   }else if(frame == 670){
-    image(Pic17, 500, 100, 683, 683);
+    image(Pic17, 500, 180, 683, 683);
   }else if(frame == 700){
-    image(Pic18, 500, 100, 683, 683);
+    image(Pic18, 500, 180, 683, 683);
   }else if(frame == 730){
-    image(Pic17, 500, 100, 683, 683);
+    image(Pic17, 500, 180, 683, 683);
   }else if(frame == 760){
-    image(Pic16, 500, 100, 683, 683);
+    image(Pic16, 500, 180, 683, 683);
   }else if(frame == 790){
-    image(Pic12, 500, 100, 683, 683);
+    image(Pic12, 500, 180, 683, 683);
   }else if(frame == 810){
-    image(Pic19, 500, 100, 683, 683);
+    image(Pic19, 500, 180, 683, 683);
   }else if(frame == 840){
-    image(Pic20, 500, 100, 683, 683);
+    image(Pic20, 500, 180, 683, 683);
   }else if(frame == 870){
-    image(Pic21, 500, 100, 683, 683);
+    image(Pic21, 500, 180, 683, 683);
   }else if(frame == 900){
-    image(Pic22, 500, 100, 683, 683);
+    image(Pic22, 500, 180, 683, 683);
   }else if(frame == 920){
-    image(Pic21, 500, 100, 683, 683);
+    image(Pic21, 500, 180, 683, 683);
   }else if(frame == 940){
-    image(Pic20, 500, 100, 683, 683);
+    image(Pic20, 500, 180, 683, 683);
   }else if(frame == 960){
-    image(Pic19, 500, 100, 683, 683);
+    image(Pic19, 500, 180, 683, 683);
   }else if(frame == 990){
-    image(Pic12, 500, 100, 683, 683);
+    image(Pic12, 500, 180, 683, 683);
   }else if(frame == 1010){
-    image(Pic23, 500, 100, 683, 683);
+    image(Pic23, 500, 180, 683, 683);
   }else if(frame == 1040){
-    image(Pic24, 500, 100, 683, 683);
+    image(Pic24, 500, 180, 683, 683);
   }else if(frame == 1070){
-    image(Pic25, 500, 100, 683, 683);
+    image(Pic25, 500, 180, 683, 683);
   }else if(frame == 1100){
-    image(Pic26, 500, 100, 683, 683);
+    image(Pic26, 500, 180, 683, 683);
   }else if(frame == 1130){
-    image(Pic27, 500, 100, 683, 683);
+    image(Pic27, 500, 180, 683, 683);
   }else if(frame == 1160){
-    image(Pic28, 500, 100, 683, 683);
+    image(Pic28, 500, 180, 683, 683);
   }
   }
   fill(c);
-  ellipse(260, 240, 260, 260);
-  ellipse(260, 570, 260, 260);
+  ellipse(260, 280, 260, 260);
+  ellipse(260, 750, 260, 260);
   noStroke();
   }
 
