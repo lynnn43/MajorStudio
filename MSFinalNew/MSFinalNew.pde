@@ -1,3 +1,5 @@
+import processing.sound.*;
+SoundFile file;
 PImage img, imgblank;
 //float offset = 0;
 //float easing = 0.05;
@@ -11,6 +13,8 @@ String[] imgArray = {"colornewpic1.png","colornewpic2.png","colornewpic3.jpg","c
 void setup() {
   size(1366, 1024);
   imgblank =loadImage("newpic28.jpg");
+  file = new SoundFile(this, "teamusicnew.mp3");
+  file.play();
 }
 
 void draw() {
