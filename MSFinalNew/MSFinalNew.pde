@@ -5,11 +5,11 @@ int blur=6;
 int frame = 0;
 int stage = 0;
 int count = 0;
-String[] imgArray = {"newpic07.jpg","newpic12.jpg","newpic18.jpg","newpic22.jpg"};
+String[] imgArray = {"colornewpic1.png","colornewpic2.png","colornewpic3.jpg","colornewpic4.jpg"};
 
 
 void setup() {
-  size(660, 660);
+  size(1366, 1024);
   imgblank =loadImage("newpic28.jpg");
 }
 
@@ -22,7 +22,7 @@ void draw() {
   
   if (mousePressed == true){
     img= loadImage(imgArray[count]);
-    image(img, 0, 0);
+    image(img, 300, 150);
     blur -= 1;
     filter(BLUR, blur);
     if(blur==0){
@@ -31,7 +31,7 @@ void draw() {
     }
   }
   if(count>=imgArray.length){
-    image(imgblank, 0, 0);
+    image(imgblank, 300, 150);
   }
 }
   //if(blur == 0 && stage ==0){
